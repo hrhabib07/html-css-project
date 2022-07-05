@@ -12,6 +12,18 @@ h2 {
   margin: 0;
   padding: 0;
 }
+.top-banner {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./donate-today-main/images/donation7.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 5px 5px 5px rgb(31, 30, 30);
+}
 .btn-primary {
   color: whitesmoke;
   background-color: orangered;
