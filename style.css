@@ -8,21 +8,34 @@ p {
   margin: 0 0 50px 0;
 }
 h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0;
   padding: 0;
 }
-.top-banner {
+h3 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.text-center {
   text-align: center;
-  color: white;
+}
+.flex {
+  display: flex;
+}
+.container {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./donate-today-main/images/donation7.jpg);
   height: 800px;
+}
+.top-banner {
+  background-image: url(./donate-today-main/images/donation7.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: 5px 5px 5px rgb(31, 30, 30);
+  color: white;
 }
 .btn-primary {
   color: whitesmoke;
@@ -32,4 +45,26 @@ h2 {
   border-radius: 7px;
   border: none;
   padding: 15px 25px;
+}
+
+.price-container {
+  background-color: #fafafa;
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+  color: #707070;
+  border-radius: 10px;
+}
+#regular-price {
+  color: #ff5959;
+  background-color: #ffeeee;
+  border: 3px solid #ff5959;
+  border-radius: 10px;
+}
+#customized-input-field {
+  height: 40px;
+  border: none;
+  width: 800px;
+  border-bottom: 2px solid #707070;
+  text-align: center;
 }
