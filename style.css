@@ -97,3 +97,8 @@ h4 {
 .plan-details img {
   margin: 9% 20px;
 }
+.half-width {
+  width: 50%;
+  text-align: left;
+  margin-left: 10%;
+}
