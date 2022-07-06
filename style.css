@@ -35,6 +35,14 @@ h4 {
   align-items: center;
   height: 800px;
 }
+.update-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+}
 .top-banner {
   background-image: url(./donate-today-main/images/donation7.jpg);
   background-repeat: no-repeat;
@@ -101,4 +109,43 @@ h4 {
   width: 50%;
   text-align: left;
   margin-left: 10%;
+}
+#email-input {
+  height: 66px;
+  background-color: rgba(119, 136, 153, 0.388);
+  border: none;
+  margin: 0;
+  padding-right: 0;
+  width: 400px;
+  padding-left: 20px;
+}
+#subscribe-btn {
+  margin-left: 0;
+  border-radius: 0;
+  height: 66px;
+}
+.input-container {
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  border-radius: 20px;
+}
+.input-container {
+  border-radius: 20px;
+}
+#speacial {
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 66px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
